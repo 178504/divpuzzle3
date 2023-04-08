@@ -33,24 +33,15 @@ body{
   float: left;
   left: 250px;
   position: relative;
+  top:20px;
+  bottom:10px;
   border: solid  5px #FFFFFF;
 }
 
-.top-1 {
+.top {
   position: relative;
   top:20px;
   bottom:10px;
-}
-
-.top-2 {
-  position: relative;
-  top:20px;
-}
-
-.top-3 {
-  position: relative;
-  top:20px;
-  bottom:30px;
 }
 
 .main-left {
