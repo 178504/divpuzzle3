@@ -4,11 +4,6 @@ body{
 }
 
 .wrapper{
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
   width: 400px;
   height: 450px;
   margin: auto;
@@ -24,24 +19,24 @@ body{
   width: 400px;
   height: 100px;
   background-color: #ff0000;
+  position: relative;
 }
 
 .boxs {
   background-color:#a9004b;
-  width: 40px;
-  height: 40px;
-  float: left;
-  left: 250px;
-  position: relative;
-  top:20px;
-  bottom:10px;
-  border: solid  5px #FFFFFF;
+  width: 60px;
+  height: 60px;
+  position: absolute;
 }
 
-.top {
+.boxs{
+  float: left;
   position: relative;
-  top:20px;
-  bottom:10px;
+  top: 20px;
+  left: 200px;
+  right: 20px;
+  bottom: 20px;
+  border: 10px solid #fff;
 }
 
 .main-left {
@@ -57,6 +52,7 @@ body{
   width: 250px;
   background-color: #8c2727;
   float: left;
+  position: relative;
 }
 
 .box{
@@ -64,28 +60,18 @@ body{
   width: 140px;
   height: 40px;
   position: absolute;
+  top: 40px;
   left: 40px;
-  right: 60px;
   border:5px solid #FFFFFF ;
-  display: inline-block;
+  display: inline-flex;
 }
 
-.box-a{
+.box{
   position: relative;
-  top: 60px;
-  bottom:5px;
-}
-
-.box-b{
-  position: relative;
-  top:65px;
-  bottom:10px;
-}
-
-.box-c{
-  position: relative;
-  top: 70px;
-  bottom: 20px;
+  padding: 10px;
+  margin: 5px;
+  border: 5px solid #FFFFFF ;
+  display: inline-flex;
 }
 
 .footer {
