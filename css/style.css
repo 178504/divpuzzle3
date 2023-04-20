@@ -9,7 +9,7 @@ body{
   clear: both;
 }
 
-.header{
+.parent{
   width: 400px;
   height: 100px;
   background-color: #ff0000;
@@ -25,6 +25,7 @@ body{
   height: 60px;
   background-color: #fff;
   position: absolute;
+  padding: 0;
   }
 
 .boxs:first-child {
@@ -59,6 +60,7 @@ body{
   height: 250px;
   float: left;
   background-color: #00ff51;
+  position: relative;
 }
 
 .main-right {
@@ -73,8 +75,8 @@ body{
   background-color: #ff863f;
   width: 150px;
   height: 50px;
-  position: absolute;
-  margin: 40px 60px 160px 40px;
+  position: relative;
+  padding: 0;
   border:5px solid #FFFFFF ;
 }
 
@@ -82,17 +84,18 @@ body{
   background-color: #ff863f;
   width: 150px;
   height: 50px;
-  position: absolute;
-  margin: 100px 60px 100px 40px;
+  position: relative;
+  margin: 40px -30px -30px 40px;
+  padding: 0;
   border: 5px solid #FFFFFF ;
 }
 
 .box:last-child{
   background-color: #ff863f;
-  position: absolute;
+  position: relative;
   width: 150px;
   height: 50px;
-  margin: 160px 60px 40px 40px;
+  padding: 0;
   border: 5px solid #FFFFFF ;
 }
 .footer {
