@@ -57,9 +57,6 @@ body{
   position: relative;
 }
 
-.boxA{
-  position: absolute;
-}
 
 .child:first-child {
   margin: 10px 0;
